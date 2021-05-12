@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+header,
+footer {
+  background: black; /*imagen*/
+  height: 170px;
+}
+p {
+  font-size: 12px;
+  line-height: 1.833;
+  color: #8f8b8c;
+}
+h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.header__images {
+  height: 125px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /*espacio entre contenidos*/
+  padding: 0 44px;
+}
+.logo {
+  width: 409px;
+  height: 54px;
+}
+.header__images ul {
+  display: flex;
+  list-style: none;
+}
+.header__images ul li {
+  margin: 0 2.5px;
+}
+.header__navbar {
+  background: url(../img/fondo_menu.png);
+  position: relative;
+}
+.header__navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around; /*dividir espacios iguales*/
+  height: 70px;
+  padding: 0 24px;
+  list-style: none;
+}
+.header__navbar ul li a {
+  text-decoration: none;
+  color: black;
+}
+.final__header {
+  background: url(../img/fondo_banner.png);
+  width: 100%;
+  height: 67px;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  padding: 45px 15px;
+}
+.wrapper h2 {
+  padding-left: 24px;
+}
+.left {
+  width: 610px;
+}
+.left__content {
+  display: flex;
+  padding-left: 24px;
+  margin-bottom: 20px;
+}
+.left__content img {
+  width: 185px;
+  height: 160px;
+}
+.left__content p {
+  padding: 0 24px;
+}
+.left__content p:first-child {
+  color: #e88800;
+  margin-bottom: 12px;
+}
+.center {
+  padding: 0 24px;
+}
+.rigth {
+  width: 320px;
+}
+.rigth p {
+  padding: 0 30px;
+  line-height: 1.833;
+}
+.rigth p:nth-child(2) {
+  color: #e88800;
+  padding-left: 39px;
+  margin-bottom: 12px;
+}
+.rigth a {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 120px;
+  height: 35px;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(156, 154, 154);
+  font-size: 12px;
+  padding: 10px 30px;
+  background: rgba(225, 226, 228, 0.4);
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 22px;
+  margin-left: 30px;
+  border-bottom: 1px solid rgb(248, 248, 248);
+  border-top: 1px solid rgb(110, 110, 110);
+}
+.Recruit {
+  width: 49%;
+}
+.Recruit p {
+  padding: 0 24px;
+  margin-bottom: 20px;
+}
+.Recruit ul {
+  padding-left: 39px;
+  font-size: 12px;
+  color: #e88800;
+  margin-bottom: 20px;
+  list-style-image: url(../img/vineta.png);
+}
+.Recruit ul li {
+  margin-bottom: 18px;
+}
+.text__color {
+  color: #e88800;
+  margin-left: 15px;
+}
+footer {
+  background: url(../img/fondo_footer.png);
+  width: 100%;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+footer p {
+  color: #8f8b8c;
+  font-size: 14px;
+}
+footer span {
+  color: #e37700;
+}
+footer a {
+  text-decoration: none;
+  color: #e37700;
+}

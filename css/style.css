@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  background: black; /*imagen*/
+  height: 170px;
+}
+p {
+  font-size: 12px;
+  line-height: 1.833;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.header__images {
+  height: 125px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /*espacio entre contenidos*/
+  padding: 0 44px;
+}
+.logo {
+  width: 409px;
+  height: 54px;
+}
+.header__images ul {
+  display: flex;
+  list-style: none;
+}
+.header__images ul li {
+  margin: 0 2.5px;
+}
+.header__navbar {
+  background: url(../img/fondo_menu.png);
+  position: relative;
+}
+.header__navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around; /*dividir espacios iguales*/
+  height: 70px;
+  padding: 0 24px;
+  list-style: none;
+}
+.header__navbar ul li a {
+  text-decoration: none;
+  color: black;
+}
+.servicios {
+  background: url(../img/fondo_banner.png);
+}
+.services__content {
+  display: flex;
+  justify-content: space-between;
+  height: 436px;
+  padding: 46px 15px;
+  text-align: center;
+}
+.services__content img {
+  object-fit: cover;
+  padding-top: 159px;
+}
+.systems {
+  width: 290px;
+}
+.systems img {
+  padding: 27px 2px;
+}
+.systems h2 {
+  color: #e37700;
+  font-size: 18px;
+}
+.systems p {
+  font-size: 12px;
+  color: #8f8b8c;
+  margin: 24px 0;
+  padding: 0 30px;
+  line-height: 1.6;
+}
+.systems a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+  padding: 10px 30px;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  border-bottom: 1px solid gray;
+  border-top: 1px solid black;
+}
+.who__we {
+  height: 490px;
+  display: flex;
+  justify-content: space-around;
+  padding: 35px 15px;
+}
+.group {
+  width: 290px;
+}
+.group h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.group p {
+  margin-bottom: 10px;
+}
+.group p,
+.group li {
+  font-size: 12px;
+}
+.group span {
+  color: #e37700;
+}
+.group ul {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  padding-left: 15px;
+}
+.group ul li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+.center p {
+  margin-top: 60px;
+  padding-right: 15px;
+}
+.center ul {
+  padding-top: 5px;
+}
+.group,
+.center ul {
+  list-style: none;
+  list-style-image: url(../img/vineta.png);
+}
+.right {
+  padding: 0 10px;
+}
+.right p span {
+  background: url(../img/vineta2.png) no-repeat;
+  padding-left: 15px;
+}
+.group a {
+  text-decoration: none;
+  color: rgb(156, 154, 154);
+  font-size: 12px;
+  padding: 10px 30px;
+  background: rgba(225, 226, 228, 0.4);
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  border-bottom: 1px solid rgb(248, 248, 248);
+  border-top: 1px solid rgb(110, 110, 110);
+}
+footer {
+  background: black;
+  width: 100%;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+footer p {
+  color: #8f8b8c;
+  font-size: 14px;
+}
+footer span {
+  color: #e37700;
+}
+footer a {
+  text-decoration: none;
+  color: #e37700;
+}
